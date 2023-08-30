@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidNdkExample</string>
+    <string name="sample_fibonacci">Fibonacci (%d) = %d</string>
 </resources>

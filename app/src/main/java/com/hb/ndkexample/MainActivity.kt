@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val numb = 30
         lifecycleScope.launch {
-            textView.text = "Fibonacci ($numb) = ${NdkManager().computeFibonacci(numb)}"
+            textView.text = getString(R.string.sample_fibonacci, numb, NdkManager().computeFibonacci(numb));
         }
     }
 }
